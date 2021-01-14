@@ -4,3 +4,8 @@ Style/FrozenStringLiteralComment:
 Layout/LineLength:
   Enabled: false
   
+Lint/ScriptPermission:
+  Enabled: false
+
+  Documentation:
+  Enabled: false
