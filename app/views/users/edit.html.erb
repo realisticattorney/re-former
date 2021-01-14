@@ -35,8 +35,7 @@
 
 <% end %>
 
-
-<%= form_for @user do |f| %>
+<%= form_for @user, url: user_path do |f| %>
   Your user name here: <%= f.text_field :username %><br /><br />
   Email: <%= f.email_field :email, placeholder: 'example@example.com' %><br /><br />
   Password: <%= f.password_field :password %><br /><br />
