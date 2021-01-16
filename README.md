@@ -30,6 +30,9 @@ To get a local copy up and running follow these simple example steps.
 Now enter $ rails console to run the app
 
 
+EDIT: If you're having a "Webpacker error, missing entry" kind of error, try installing webpacker first $ bundle exec rails webpacker:install
+Then run the app again
+
 ## Author
 
 👤 **German Aquila** 
